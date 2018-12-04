@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               God's Family Church
+tagline:             Ministry website
+url:                 http://godsfamily.lv
 paginate:            1
 baseurl:             ""
 
@@ -17,16 +17,19 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              GFC Media
+  url:               https://godsfamily.lv
+  email:             hambaryanyegor@yahoo.com
 
 # Custom vars
-version:             2.0.0
+version:             0.0.1
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/GodsFamilly/gfcweb
 
 # Gems
-gems:
-  - jekyll-paginate
+plugins:
   - jekyll-gist
+  - jekyll-assets
+  - jekyll-auto-image
+  - jekyll-paginate
+  - hawkins
